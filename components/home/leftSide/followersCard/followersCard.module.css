@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    border-radius: .75rem;
+    font-size: 12px;
+}
+
+.container h3{
+    margin: 0;
+}
+
+.container ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.container ul li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.container ul li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container ul li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.container ul li div span:nth-child(1){
+    font-weight: bold;
+}
