@@ -15,7 +15,7 @@ const PostShare = () => {
 
   const changeHandler = (e) => {
     if (e.target.files && e.target.files[0]) {
-      const img = e.target.files[0];
+      let img = e.target.files[0];
       setImage(URL.createObjectURL(img));
     }
   };

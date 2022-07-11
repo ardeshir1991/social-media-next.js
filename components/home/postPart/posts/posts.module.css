@@ -1,0 +1,50 @@
+.container{
+
+}
+
+.posts{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, .64);
+    padding: 1rem;
+}
+
+.post img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.reactions{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.reactions svg{
+    cursor: pointer;
+}
+
+.reactions svg:nth-child(1):hover{
+    color: #ef4444;
+}
+
+.reactions svg:nth-child(2):hover{
+    color: #22c55e;
+}
+
+.reactions svg:nth-child(3):hover{
+    color: #22d3ee;
+}
+
