@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.item{
+    position: relative;
+    font-size: 22px;
+    color: #475569;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+.item span{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #e11d48;
+    border-radius: 50%;
+    top: -5px;
+    right: -2px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
