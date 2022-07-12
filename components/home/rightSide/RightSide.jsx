@@ -6,6 +6,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 import styles from "./rightSide.module.css";
+import TrendCard from "./trendCard/TrendCard";
 
 const RightSide = () => {
   return (
@@ -28,6 +29,7 @@ const RightSide = () => {
           <span>2</span>
         </div>
       </div>
+      <TrendCard />
     </div>
   );
 };
