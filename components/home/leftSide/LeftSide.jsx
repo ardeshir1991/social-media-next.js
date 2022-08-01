@@ -8,7 +8,7 @@ const LeftSide = () => {
   return (
     <div className={styles.container}>
       <Search />
-      <ProfileCard />
+      <ProfileCard profileButton={true} showPostNumber={false} />
       <FollowersCard />
     </div>
   );

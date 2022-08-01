@@ -4,7 +4,7 @@ import Content from "../components/home/Content";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title="Home">
       <Blur />
       <Content />
     </Layout>
