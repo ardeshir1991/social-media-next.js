@@ -45,6 +45,7 @@
     border-top: 1px solid #9ca3af;
     border-bottom: 1px solid #9ca3af;
     padding: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 .follow{
@@ -67,6 +68,7 @@
 .vl{
     border: 1px solid #9ca3af;
     height: 100%;
+    background: #9ca3af;
 }
 
 .txt{

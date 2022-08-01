@@ -1,0 +1,35 @@
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    background: rgba(255, 255, 255, .64);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 95%;
+}
+
+.infoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #242d49;
+}
+
+.infoHead svg{
+    width: 2rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.infoCard ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.infoCard ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}

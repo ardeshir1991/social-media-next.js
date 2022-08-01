@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./profileCard.module.css";
+import Link from "next/link";
 
-const ProfileCard = () => {
+const ProfileCard = ({ showPostNumber, profileButton }) => {
   return (
     <div className={styles.container}>
       <div className={styles.profileImages}>
@@ -23,8 +24,21 @@ const ProfileCard = () => {
           <span>2,689</span>
           <span>Followers</span>
         </div>
+        {showPostNumber && (
+          <>
+            <div className={styles.vl}></div>
+            <div className={styles.follow}>
+              <span>3</span>
+              <span>Posts</span>
+            </div>
+          </>
+        )}
       </div>
-      <span className={styles.txt}>My Profile</span>
+      {profileButton && (
+        <Link href="/profile/1">
+          <span className={styles.txt}>My Profile</span>
+        </Link>
+      )}
     </div>
   );
 };
